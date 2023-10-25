@@ -9,7 +9,6 @@
           font-family: Arial;
           display: inline-block;
           margin: 0px auto;
-          /*text-align: center;*/
       }
 	   
 	  body{
