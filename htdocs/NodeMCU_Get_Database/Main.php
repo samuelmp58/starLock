@@ -16,7 +16,7 @@
 		  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
 		  background: linear-gradient(to right, #202e38, #202e38);
 		  font-family: 'Roboto', sans-serif;
-		  background-image: url(https://static.vecteezy.com/system/resources/previews/011/004/886/non_2x/hologram-security-symbol-modern-future-website-background-or-cover-page-for-technology-and-finance-concept-and-education-company-vector.jpg);
+		  background-image: url("images/background.jpg");
 		  background-size: cover;
 
 	  }
@@ -201,7 +201,7 @@
   </head>
   <body>
 	<div id=logo>
-		<img class="logoimg" src="https://static.vecteezy.com/system/resources/previews/010/956/677/original/neon-blue-star-banner-neon-star-png.png" alt="Estrela"  width="150" height="130">
+		<img class="logoimg" src="images/star.png" alt="Estrela"  width="150" height="130">
 		<h1 class="logotext">StarLock</h1>
 	</div>
 	<a class="button" id="addUser">Adicionar Usuário</a>

@@ -2,7 +2,7 @@
 <html>
     <style>
         html{
-        background-image: url("wallpaper.jpg");
+        background-image: url("images/wallpaper.jpg");
         background-size: cover; /* Isso faz a imagem cobrir 100% da largura e altura da janela do navegador */
         background-attachment: fixed; /* Isso mantém o plano de fundo fixo à medida que você rola a página */
         background-repeat: no-repeat;
@@ -131,7 +131,7 @@
         <div id="circuito">
         <div id="sensor"></div>
         <!--800px-->
-        <img src="circuitopng.png" id="imgArduino" alt="Descrição da imagem" width="1000px;" id="myimg" />
+        <img src="images/circuitopng.png" id="imgArduino" alt="Descrição da imagem" width="1000px;" id="myimg" />
         <div id="ledBoxVermelho">
             <div class="led">
                 <div class="cabecaVermelho"></div>
