@@ -20,7 +20,7 @@
 
 	  }
 	  /* ADICIONAR USUARIO */
-	  .button {
+      .button {
         display: inline-block;
         padding: 15px 25px;
         font-size: 24px;
@@ -215,7 +215,6 @@
 		</form>
 	  </div>
 	</div>
-		
 	
     <table>
       <tr>
@@ -229,7 +228,7 @@
       require 'database.php';
       $pdo = Database::connect();
 
-      // Cpdigo SQL
+      // Código SQL
       $sql = "SELECT u.id, u.nome, GROUP_CONCAT(c.chave ORDER BY c.id) as chaves, u.ultimo_horario
               FROM usuarios u
               LEFT JOIN chaves c ON u.id = c.usuario_id
