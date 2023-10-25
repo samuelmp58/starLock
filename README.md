@@ -1,5 +1,5 @@
 # StarLock
-Banco de dados para projeto de trava automatizada
+Banco de dados para projeto de trava automatizada com pagina simulando o arduíno
 
 ![pagina](https://github.com/samuelmp58/starLock/assets/16710763/54d29abc-0b5c-4b76-8956-5cce69199d4a)
 
