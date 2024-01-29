@@ -7,7 +7,7 @@
         background-attachment: fixed; /* Isso mantém o plano de fundo fixo à medida que você rola a página */
         background-repeat: no-repeat;
         }
-        #mydiv {
+        #card {
         position: absolute;
         z-index: 9;
         background-color: #f1f1f1;
@@ -15,7 +15,7 @@
         border: 1px solid #d3d3d3;
         height: 170px;
         }
-        #mydivheader {
+        #cardHeader {
         padding: 10px;
         width: 100px;
         cursor: move;
@@ -122,8 +122,8 @@
         <p>Demonstração para trabalho de Banco de dados</p>
         </header>
         <!-- Cartão -->
-        <div id="mydiv">
-            <div id="mydivheader">Cartão</div>
+        <div id="card">
+            <div id="cardHeader">Cartão</div>
             <p>UID</p>
             <input id="codigoRFID" maxlength = "8"/>
         </div>
@@ -195,7 +195,7 @@
 	setInterval(checkStatus, 1000);
 
 	// Drag and Drop do Cartao
-	dragElement(document.getElementById("mydiv"));
+	dragElement(document.getElementById("card"));
 
 	function dragElement(elmnt) {
 		var pos1 = 0,
