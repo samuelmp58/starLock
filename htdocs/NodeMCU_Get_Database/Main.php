@@ -253,7 +253,7 @@
 			<dl>
 				<h2>Opções do Usuário</h2>
 				<!-- SETADO PELO getInfo.php PEGO PELO (buttonEditar)-->
-				<img class="logoimg" src="https://cdn-icons-png.flaticon.com/512/875/875610.png" alt="Estrela" width="150" height="140">
+				<img class="logoimg" src="images/person.png" alt="Person" width="150" height="140">
 				<h4>Nome usuário</h4>
 				<p id="nomeUsuario"></p>
 				<h4>ID usuário</h4>
