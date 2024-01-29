@@ -1,2 +1,2 @@
 http://localhost/NodeMCU_Get_Database/Main.php
-http://localhost/simulador_arduino/arduino.php
+http://localhost/simulador_arduino/arduino.html
