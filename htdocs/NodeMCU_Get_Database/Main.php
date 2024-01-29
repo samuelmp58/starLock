@@ -204,8 +204,11 @@
 </head>
 
 <body>
-	<div id=logo> <img class="logoimg" src="images/star.png" alt="Estrela" width="150" height="130">
-		<h1 class="logotext">StarLock</h1> </div> <a class="button" id="addUser">Adicionar Usuário</a>
+	<div id=logo> 
+		<img class="logoimg" src="images/star.png" alt="Estrela" width="150" height="130">
+		<h1 class="logotext">StarLock</h1> 
+	</div>
+	<a class="button" id="addUser">Adicionar Usuário</a>
 	<!-- Formulário modal -->
 	<div id="userModal" class="modal">
 		<div class="modal-content"> <span class="close" id="closeModal">&times;</span>
